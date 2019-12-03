@@ -83,7 +83,7 @@ module.exports = {
     // Disables eslint-enable comments for multiple eslint-disable comments.
     "eslint-comments/no-aggregating-enable": "error",
     // Disables eslint-disable comments without rule names.
-    "eslint-comments/no-unlimited-disable": "error", 
+    "eslint-comments/no-unlimited-disable": "error",
     // Disables eslint-disable that don't cover any errors.
     "eslint-comments/no-unused-disable": "error",
     // Disables eslint-enable that don't enable anything or enable rules that weren't disabled.
