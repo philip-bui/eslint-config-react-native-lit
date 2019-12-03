@@ -91,7 +91,7 @@ module.exports = {
 
     // React-Native Plugin - eslint-plugin-react-native
     // Enforces Static Properties as static public field.
-    "react/static-property-placement": ["error"],
+    "react/static-property-placement": ["error", "static public field"],
     // Enforces State as static field.
     "react/state-in-constructor": ["error", "never"],
     // Enables JSX Spreading.
