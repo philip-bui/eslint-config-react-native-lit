@@ -102,9 +102,9 @@ module.exports = {
     "react-native/no-inline-styles": "error",
     // Enforces no single-element style arrays.
     "react-native/no-single-element-style-arrays": "error",
-    // Disables commiting disabled tests.
 
     // Jest Plugin - eslint-plugin-jest
+    // Disables commiting disabled tests.
     "jest/no-disabled-tests": "error",
     // Disables commiting focused tests (run only one test).
     "jest/no-focused-tests": "error",
