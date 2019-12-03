@@ -4,13 +4,40 @@
 ![Downloads](https://img.shields.io/npm/dt/eslint-config-react-native-lit.svg?style=flat)
 
 - [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript) - A mostly reasonable approach to JavaScript.
-- [Prettier](https://github.com/prettier/eslint-plugin-prettier) - An opinionated code formatter. 
+- [Prettier](https://github.com/prettier/eslint-plugin-prettier) - An opinionated code formatter.
+- [Plugin ESLint React](https://github.com/yannickcr/eslint-plugin-react) - React specific linting rules for ESLint.
 - [Plugin ESLint Comments](https://github.com/mysticatea/eslint-plugin-eslint-comments) - Additional ESLint rules for directive comments of ESLint.
 - [Plugin ESLint React Native](https://github.com/intellicode/eslint-plugin-react-native) - React Native plugin for ESLint.
 
+## Installation
+
+```bash
+$ npm install eslint-config-react-native-lit
+```
+
+```bash
+$ yarn add eslint-config-react-native-lit
+```
+
+## Usage
+
+`.eslintrc`
+```js
+{
+    "extends": ["react-native-lit"]
+}
+```
+
+`package.json`
+```json
+"eslintConfig": {
+    "extends": ["react-native-lit"]
+},
+```
+
 ## Rules
 
-- Ignores `prop-types`, sorting of functions and 
-- Ignores parameter re-assigns or return types of functions.
-- Disables on unnecessary `eslint-disable` comments.
+- Enables parameter re-assigns, and quality of life improvements.
+- Enables `prop-types` unless declared, JSX in `.js` files, sorting component methods by static -> variables -> lifecycle methods -> methods -> event methods -> render methods.
+- Disables on unnecessary `eslint-disable` `eslint-enable` comments.
 - Disables inline styling, unnecessary array styles, unused StyleSheets.
