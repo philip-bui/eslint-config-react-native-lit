@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-native-lit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint Config used by University of Sydney",
   "main": "index.js",
   "scripts": {
@@ -43,6 +43,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-native": "^3.8.1",
+    "eslint-plugin-react-redux": "^3.0.3",
     "prettier": "^1.18.2"
   }
 }
