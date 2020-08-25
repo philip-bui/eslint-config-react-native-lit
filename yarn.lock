@@ -575,9 +575,9 @@ eslint-plugin-react-native@^3.8.1:
     eslint-plugin-react-native-globals "^0.1.1"
 
 eslint-plugin-react-redux@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-redux/-/eslint-plugin-react-redux-3.0.3.tgz#2dfbf6de7088c8c8c0a181e50f47d1bc8849bcec"
-  integrity sha512-kJjE1sFVACgbhTax5MZw/nYjfpxOlmuybC77TA+aKAbcSrGpxK1AdjkJnD8kOMx3xVFtGZe2Z8qLRTdYDf1aNw==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-redux/-/eslint-plugin-react-redux-3.1.0.tgz#b41110cc3dad640e44f7ed525093b694c66eedc4"
+  integrity sha512-vp3ezrLlqAdt131ToY3r11s4LHoJEQaJkDgBW5mcyPY6VnKPJh/trV2JfjyFzLfhNO+REoLvPkUl6pwXm468BA==
   dependencies:
     eslint-plugin-react "^7.16.0"
     eslint-rule-composer "^0.3.0"
