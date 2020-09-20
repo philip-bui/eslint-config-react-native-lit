@@ -3,7 +3,7 @@ module.exports = {
     es6: true,
     jest: true,
     // Whitelist all browser-like globals.
-    "react-native/react-native": true
+    "react-native/react-native": true,
   },
   parser: "babel-eslint",
   parserOptions: {
@@ -12,8 +12,8 @@ module.exports = {
     // Enables ecmaFeatures experimentalObjectRestSpread
     ecmaVersion: 2018,
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   plugins: [
     // https://www.npmjs.com/package/eslint-plugin-eslint-comments
@@ -23,7 +23,7 @@ module.exports = {
     // https://www.npmjs.com/package/eslint-plugin-jest
     "jest",
     // https://www.npmjs.com/package/eslint-plugin-react-redux
-    "react-redux"
+    "react-redux",
   ],
   extends: [
     // https://mysticatea.github.io/eslint-plugin-eslint-comments/rules/
@@ -39,7 +39,7 @@ module.exports = {
     // https://www.npmjs.com/package/eslint-plugin-prettier#recommended-configuration
     "plugin:prettier/recommended",
     // We override Airbnb with prettier, and add React prettier plugins
-    "prettier/react"
+    "prettier/react",
   ],
   rules: {
     // Enables parseInt without second parameter of radix.
@@ -52,8 +52,8 @@ module.exports = {
     "no-unused-vars": [
       "error",
       {
-        argsIgnorePattern: "^_"
-      }
+        argsIgnorePattern: "^_",
+      },
     ],
     // Enables reassignment of function parameters.
     "no-param-reassign": "off",
@@ -78,12 +78,12 @@ module.exports = {
           "lifecycle",
           "everything-else",
           "/^on.+$/",
-          "rendering"
+          "rendering",
         ],
         groups: {
-          rendering: ["/^render.+$/", "render"]
-        }
-      }
+          rendering: ["/^render.+$/", "render"],
+        },
+      },
     ],
     // Enables PropTypes of any, object, array.
     "react/forbid-prop-types": "off",
@@ -91,8 +91,8 @@ module.exports = {
     "react/jsx-filename-extension": [
       "error",
       {
-        extensions: [".js", ".jsx"]
-      }
+        extensions: [".js", ".jsx"],
+      },
     ],
     // Enforces Static Properties as static public field.
     "react/static-property-placement": ["error", "static public field"],
@@ -118,6 +118,6 @@ module.exports = {
 
     // React-Redux Plugin - eslint-plugin-react-redux
     // Enables connected component and component in single file.
-    "react-redux/prefer-separate-component-file": "off"
-  }
+    "react-redux/prefer-separate-component-file": "off",
+  },
 };
