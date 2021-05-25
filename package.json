@@ -57,6 +57,6 @@
     "prettier": "^2.1.2"
   },
   "devDependencies": {
-    "jest": "^26.4.2"
+    "jest": "^27.0.1"
   }
 }
